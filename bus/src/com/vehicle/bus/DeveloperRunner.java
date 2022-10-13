@@ -3,7 +3,7 @@ package com.vehicle.bus;
 public class DeveloperRunner {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
 
 		Developer skills=new Developer();
 		

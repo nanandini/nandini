@@ -3,7 +3,7 @@ package com.vehicle.bus;
 public class DistrictCollectorRunner {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		
 		DistrictCollector  districtDc=new DistrictCollector();
 		  
