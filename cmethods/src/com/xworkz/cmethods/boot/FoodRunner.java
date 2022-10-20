@@ -12,7 +12,8 @@ public class FoodRunner {
 		long[] ownerPhoneNumbers = { 9900276144L, 9448958488L };
 		boolean[] serveFacilities = { true, false };
 
-		Food food = new Food("vegiterian", "vegPallav", "vegTypes", true, 35,colours,foodNames,shopNames,ownerNames,ownerPhoneNumbers,serveFacilities);
+		Food food = new Food("vegiterian", "vegPallav", "vegTypes", true, 35, colours, foodNames, shopNames, ownerNames,
+				ownerPhoneNumbers, serveFacilities);
 		food.display();
 	}
 

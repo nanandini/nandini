@@ -40,8 +40,8 @@ public class Food {
 		System.out.println("name:" + this.name);
 		System.out.println("fav:" + this.fav);
 		System.out.println("type:" + this.type);
-		System.out.println("good:"+this.good);
-		System.out.println("price:"+this.price);
+		System.out.println("good:" + this.good);
+		System.out.println("price:" + this.price);
 
 		for (int i = 0; i < colours.length; i++) {
 			System.out.println(this.colours[i]);
@@ -61,7 +61,7 @@ public class Food {
 		}
 		for (int i = 0; i < ownerPhoneNumbers.length; i++) {
 			System.out.println(this.ownerPhoneNumbers[i]);
-			
+
 		}
 	}
 
