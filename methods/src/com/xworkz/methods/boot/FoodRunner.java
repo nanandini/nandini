@@ -1,6 +1,6 @@
-package developer;
+package com.xworkz.methods.boot;
 
-public class Computer {
+public class FoodRunner {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
