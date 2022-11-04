@@ -6,7 +6,7 @@ import com.xworkz.encapsulation.type.ChildhoodInside;
 public class ChilhoodRunner {
 
 	public static void main(String[] args) {
-		com.xworkz.encapsulation.type.ChildhoodInside ChildhoodInside = new ChildhoodInside();
+		ChildhoodInside ChildhoodInside = new ChildhoodInside();
 		ChildhoodInside.display();
 		Childhood memo = new Childhood();
 		memo.setChildhoodName("brunda");
