@@ -14,7 +14,7 @@ public class Institution {
 	private String type;
 
 	public Institution() {
-		System.out.println("Default const of institute");
+		System.out.println("Default constructor of institute");
 	}
 
 	public Institution(String instituteName, String trainingCourses, String noOfTopics, double fees,
@@ -45,11 +45,7 @@ public class Institution {
 					&& this.trainingCourses.equals(ref.trainingCourses)
 					&& this.headOFInstitution.equals(ref.headOFInstitution)
 					&& this.instituteName.equals(ref.instituteName)) {
-				System.out.println("type is same");
-				System.out.println("location is same");
-				System.out.println("trainingCourses is same");
-				System.out.println("headofinstitution is same");
-				System.out.println("institute is same");
+				System.out.println("Both are equal");
 
 				return true;
 			}

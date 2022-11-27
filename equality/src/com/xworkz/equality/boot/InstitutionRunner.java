@@ -17,8 +17,6 @@ public class InstitutionRunner {
 		institute.setTrainingCourses("Core java");
 		institute.setType("Application Development course");
 
-		System.out.println(institute);
-
 		Institution institute2 = new Institution("X-WORKZ", "Core java", "JAVA,HTML,CSS", 22000, true, "OMKAR SIR",
 				"RAJAJINAGAR", true, 3, "Application Development course");
 		System.out.println(institute2);
