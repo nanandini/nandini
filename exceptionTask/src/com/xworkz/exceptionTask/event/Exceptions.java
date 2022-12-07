@@ -75,6 +75,7 @@ import org.w3c.dom.ls.LSException;
 public class Exceptions {
 
 	private static final String String = null;
+	private static final java.lang.Exception Exception = null;
 
 	public void method1() {
 		System.out.println("Running in method1");
@@ -509,7 +510,7 @@ public class Exceptions {
 		throw new AWTError(String);
 	}
 
-	public void errorMethod4(Exception Exception) {
+	public void errorMethod4() {
 		System.out.println("running the errorMethod4");
 		throw new CoderMalfunctionError(Exception);
 	}
