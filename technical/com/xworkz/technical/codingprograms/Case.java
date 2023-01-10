@@ -5,7 +5,7 @@ public class Case {
 
 		String str = "NANDINI";
 		int i;
-		char str[] = st.tocharArray();
+		char str[] = str.tocharArray();
 		for (int i = 0; i < str.length; i++) {
 			if (str[i] >= 'a' && str[i] <= 'z') {
 				str[i] = (char) ((int) str[i] + 32);

@@ -22,13 +22,16 @@ public class StringInMovie {
 				index++;
 		}
 		System.out.println("The  " + alpha + " present " + index + " in the above sentence");
-		char[] chars = heroGanesh.toCharArray(); // logic to find digits in given String
+// logic to find digits in given String
+
+		char[] chars = heroGanesh.toCharArray();
 		StringBuilder digits = new StringBuilder();
 		for (char count : chars) {
 			if (Character.isDigit(count)) {
 				digits.append(count);
 			}
 		}
+		// split by ,
 		System.out.println("numbers of digits are =" + digits);
 		System.out.println("-----------");
 		String[] splitBy = heroGanesh.split(","); // split by ,

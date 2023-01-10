@@ -119,7 +119,7 @@ public class ExceptionRunner {
 		except.errorMethod1();
 		except.errorMethod2();
 		except.errorMethod3();
-		except.errorMethod4(null);
+		except.errorMethod4();
 		except.errorMethod5();
 		except.errorMethod6(null);
 		except.errorMethod7();
