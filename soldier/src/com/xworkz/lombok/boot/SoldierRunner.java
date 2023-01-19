@@ -16,7 +16,7 @@ public class SoldierRunner {
 
 		SoldierRepository repository = new SoldierRepositoryImplementation();
 		service.setSoldierRepository(repository);
-		service.validateAndSave(dto);
+		//service.validateAndSave(soldierdto);
 
 	}
 
