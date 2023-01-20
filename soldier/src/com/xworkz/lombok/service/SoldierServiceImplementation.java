@@ -27,7 +27,7 @@ public class SoldierServiceImplementation implements SoldierService {
 	@Override
 	public boolean validateAndSave(SoldierDTO soldierdto) {
 		System.out.println("starting validateandsave");
-		System.out.println("given data fron Dto method=" + soldierdto);
+		System.out.println("given data from Dto method=" + soldierdto);
 
 		ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
 		Validator validator = factory.getValidator();

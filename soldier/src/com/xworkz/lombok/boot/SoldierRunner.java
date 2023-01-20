@@ -9,17 +9,18 @@ public class SoldierRunner {
 
 	public static void main(String[] args) {
 
-		SoldierDTO dto = new SoldierDTO("Sandeep UnniKrishnan", "Kozhikode", 31, "Operation Vijay", "Indian Army",
-				"National Defence Academy", 2000);
+			SoldierDTO dto = new SoldierDTO("Sandeep UnniKrishnan", "Kozhikode", 31, "Operation Vijay", "Indian Army",
+					"National Defence Academy", 2000);
 
-		SoldierServiceImplementation service = new SoldierServiceImplementation();
-		service.validateAndSave(dto);
+			SoldierServiceImplementation service = new SoldierServiceImplementation();
+			service.validateAndSave(dto);
 
-		SoldierRepository repository = new SoldierRepositoryImplementation();
-		service.setSoldierRepository(repository);
+			SoldierRepository repository = new SoldierRepositoryImplementation();
+			service.setSoldierRepository(repository);
 
-		System.out.println(service);
+			System.out.println(service);
 
+		
 	}
 
 }
