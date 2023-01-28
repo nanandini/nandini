@@ -1,4 +1,4 @@
-package com.xworkz.inheritance2.boot;
+package com.xworkz.inheritance2.casting;
 
 import com.xworkz.inheritance2.casting.Jail;
 import com.xworkz.inheritance2.type.CentralJail;
