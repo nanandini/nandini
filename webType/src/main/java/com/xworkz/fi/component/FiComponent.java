@@ -20,7 +20,7 @@ public class FiComponent {
 		System.out.println("type : " + type);
 		System.out.println("quantity : " + quantity);
 		System.out.println("price : " + price);
-		return "FoodItem.jsp";
+		return "FoodIte.jsp";
 	}
 
 }
