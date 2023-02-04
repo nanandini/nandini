@@ -21,7 +21,15 @@
 			<a class="navbar-brand" href="#"> <img
 				src="https://x-workz.in/static/media/Logo.cf195593dc1b3f921369.png"
 				alt="" width="80" height="48" class="d-inline-block align-text-top">
-			</a> <a href="FoodIte.jsp">food items</a>
+			</a> 
+			<ul class="nav justify-content-center">
+			<li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="FoodIte.jsp" value="send" >Food items</a>
+			</li>
+			<li class="nav-item">
+			<a class="nav-link " aria-current="page" href="Interview.jsp" value="attend" >Interview</a>
+			</li>
+			</ul>
 
 		</div>
 	</nav>
